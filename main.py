@@ -35,7 +35,7 @@ calcul_result.config(padx=15, pady=15)
 calcul_result.grid(column=1, row=1)
 
 # Create a label for text and set the position.
-liter_km_label = Label(text="Liter per Km", font=("Arial", 12,))
+liter_km_label = Label(text="Liter per 100Km", font=("Arial", 12,))
 liter_km_label.config(padx=15, pady=15)
 liter_km_label.grid(column=2, row=1)
 
