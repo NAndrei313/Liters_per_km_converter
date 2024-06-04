@@ -2,7 +2,7 @@
 from tkinter import *
 
 
-# Def a function to calculate input MPG to l/KM.
+# Def a function to calculate input MPG to l/100KM.
 def converted():
     miles_per_gallon = float(input_miles_per_gallon.get())
     result = round(235.21 / miles_per_gallon)
